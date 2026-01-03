@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Header from '@/components/Header'
+import PremiumToggle from '@/components/PremiumToggle'
 
 export const metadata: Metadata = {
   title: 'CrazyGames Premium Demo',
@@ -13,7 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-gray-900">
+        <Header />
+        {children}
+        <PremiumToggle />
+      </body>
     </html>
   )
 }
