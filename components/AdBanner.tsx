@@ -47,7 +47,7 @@ export default function AdBanner({ size = 'top', className = '' }: AdBannerProps
           </p>
 
           {/* Fake Close Button (non-functional) */}
-          <button className="absolute top-2 right-2 text-gray-500 hover:text-gray-400">
+          <button className="absolute top-2 right-2 text-gray-500 hover:text-gray-400" suppressHydrationWarning>
             <XCircle className="w-4 h-4" />
           </button>
         </div>

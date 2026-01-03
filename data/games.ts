@@ -4,7 +4,7 @@ export const GAMES: Game[] = [
   {
     id: '1',
     title: 'Bloxd.io',
-    thumbnail: '/games/bloxd.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1559027615-cd2628902d4a?w=400&h=400&fit=crop',
     description: 'A Minecraft-inspired multiplayer game',
     category: 'Multiplayer',
     isPremiumExclusive: false,
@@ -14,7 +14,7 @@ export const GAMES: Game[] = [
   {
     id: '2',
     title: 'Stickman Hook',
-    thumbnail: '/games/stickman-hook.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1578482446458-6ba6132d60fc?w=400&h=400&fit=crop',
     description: 'Swing through levels like Spider-Man',
     category: 'Action',
     isPremiumExclusive: false,
@@ -24,7 +24,7 @@ export const GAMES: Game[] = [
   {
     id: '3',
     title: 'Subway Surfers',
-    thumbnail: '/games/subway-surfers.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1552820728-8b83bb687773?w=400&h=400&fit=crop',
     description: 'Classic endless runner game',
     category: 'Runner',
     isPremiumExclusive: false,
@@ -34,7 +34,7 @@ export const GAMES: Game[] = [
   {
     id: '4',
     title: 'Premium Racing Elite',
-    thumbnail: '/games/racing-elite.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1570303008586-280f8c9f5b8f?w=400&h=400&fit=crop',
     description: 'Exclusive high-speed racing experience',
     category: 'Racing',
     isPremiumExclusive: true,
@@ -44,7 +44,7 @@ export const GAMES: Game[] = [
   {
     id: '5',
     title: 'Battle Royale Legends',
-    thumbnail: '/games/battle-royale.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1538481143235-a9b916d0c57e?w=400&h=400&fit=crop',
     description: 'Last player standing wins',
     category: 'Shooter',
     isPremiumExclusive: false,
@@ -54,7 +54,7 @@ export const GAMES: Game[] = [
   {
     id: '6',
     title: 'Puzzle Master Pro',
-    thumbnail: '/games/puzzle-master.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1552072092-7f0b2c5fcff0?w=400&h=400&fit=crop',
     description: 'Premium puzzle challenges',
     category: 'Puzzle',
     isPremiumExclusive: true,
@@ -64,7 +64,7 @@ export const GAMES: Game[] = [
   {
     id: '7',
     title: 'Soccer Stars',
-    thumbnail: '/games/soccer-stars.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400&h=400&fit=crop',
     description: 'Multiplayer table soccer game',
     category: 'Sports',
     isPremiumExclusive: false,
@@ -74,7 +74,7 @@ export const GAMES: Game[] = [
   {
     id: '8',
     title: '2048',
-    thumbnail: '/games/2048.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&h=400&fit=crop',
     description: 'Classic number puzzle game',
     category: 'Puzzle',
     isPremiumExclusive: false,
@@ -84,7 +84,7 @@ export const GAMES: Game[] = [
   {
     id: '9',
     title: 'Adventure Quest VIP',
-    thumbnail: '/games/adventure-quest.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1511671782486-a01980e01a18?w=400&h=400&fit=crop',
     description: 'Premium RPG adventure',
     category: 'RPG',
     isPremiumExclusive: true,
@@ -94,7 +94,7 @@ export const GAMES: Game[] = [
   {
     id: '10',
     title: 'Tower Defense Deluxe',
-    thumbnail: '/games/tower-defense.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1513895795033-48899fbf91c6?w=400&h=400&fit=crop',
     description: 'Strategic tower defense game',
     category: 'Strategy',
     isPremiumExclusive: false,
@@ -104,7 +104,7 @@ export const GAMES: Game[] = [
   {
     id: '11',
     title: 'Drift Hunters',
-    thumbnail: '/games/drift-hunters.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400&h=400&fit=crop',
     description: 'Epic car drifting simulator',
     category: 'Racing',
     isPremiumExclusive: false,
@@ -114,7 +114,7 @@ export const GAMES: Game[] = [
   {
     id: '12',
     title: 'Zombie Survival Elite',
-    thumbnail: '/games/zombie-survival.jpg',
+    thumbnail: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop',
     description: 'Premium zombie shooter experience',
     category: 'Shooter',
     isPremiumExclusive: true,

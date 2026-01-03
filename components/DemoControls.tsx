@@ -15,6 +15,7 @@ export default function DemoControls() {
         onClick={() => setIsOpen(!isOpen)}
         className="fixed bottom-6 left-6 z-50 bg-gray-800 hover:bg-gray-700 text-gray-300 p-3 rounded-full shadow-lg transition-all"
         aria-label="Demo Controls"
+        suppressHydrationWarning
       >
         <Settings className="w-5 h-5" />
       </button>

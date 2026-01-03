@@ -1,11 +1,9 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Header from '@/components/Header'
-import DemoControls from '@/components/DemoControls'
 
 export const metadata: Metadata = {
   title: 'CrazyGames Premium Demo',
-  description: 'Interactive demo showcasing CrazyGames Premium subscription model',
+  description: 'Static clickthrough demo for CrazyGames Premium conversion flow',
 }
 
 export default function RootLayout({
@@ -15,10 +13,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-bg-primary">
-        <Header />
+      <body className="bg-black m-0 p-0" suppressHydrationWarning>
         {children}
-        <DemoControls />
       </body>
     </html>
   )
