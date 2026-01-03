@@ -1,0 +1,161 @@
+# CrazyGames Premium Demo - Project Spec
+
+## Overview
+Interactive website mockup demonstrating a Premium subscription model for CrazyGames platform. Built to be screen-recorded as a product walkthrough video.
+
+## Tech Stack
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Zustand (state management)
+- Deployed on Vercel
+- GitHub repo (public)
+
+---
+
+## Design & Assets
+
+### Visual Design
+The demo must visually match CrazyGames' actual website design.
+
+**Before building, analyze CrazyGames:**
+1. Visit https://www.crazygames.com
+2. Visit https://developer.crazygames.com
+3. Extract and replicate:
+   - Exact brand colors (hex values)
+   - Typography (fonts, sizes, weights, hierarchy)
+   - Layout structure and spacing
+   - Component styles (buttons, cards, navigation)
+   - Logo and iconography
+   - Game thumbnails and titles (use real games from their site)
+
+**If screenshots are provided:**
+- Use screenshots in `/reference-screenshots/` as primary reference
+- Extract all design tokens from provided images
+- Match visual design as closely as possible
+
+### Asset Requirements
+- Use actual CrazyGames logo
+- Use real game thumbnails from their homepage
+- Match their color palette exactly
+- Replicate their UI component styling
+- Mirror their layout patterns
+
+---
+
+## Core Concept
+A toggle-able website showing Free vs Premium experiences:
+
+1. **Free User Experience** - with ads, limited earning
+2. **Premium User Experience** - ad-free, enhanced rewards, exclusive content
+3. **Developer Dashboard** - opt-in flow, configuration, revenue tracking
+
+Users can toggle between modes to see real-time differences.
+
+---
+
+## Pages Structure
+
+### User-Facing (5 pages)
+1. **Homepage** (`/`) - Games grid, ads (conditional), navigation
+2. **Profile** (`/profile`) - User stats, badge, coin balance
+3. **Game View** (`/game`) - In-game experience with conditional ads
+4. **Shop** (`/shop`) - Items marketplace, premium exclusives
+5. **Premium Page** (`/premium`) - Pricing tiers, conversion flow
+
+### Developer-Facing (4 pages)
+6. **Dashboard** (`/developer`) - Games overview, enable premium
+7. **Enable Flow** (`/developer/enable`) - Revenue estimate, activation
+8. **Configure** (`/developer/configure`) - Set benefits, create exclusive items
+9. **Revenue** (`/developer/revenue`) - Analytics, earnings breakdown
+
+---
+
+## Key Features
+
+### Premium Toggle
+- Global switch: Free ↔ Premium mode
+- Fixed position, visible on all pages
+- Instantly updates entire site experience
+
+### Conditional Content
+**Free Mode:**
+- Ad placements visible
+- Standard earning rates
+- Premium content locked
+- Basic profile badge
+
+**Premium Mode:**
+- Ads removed/hidden
+- Enhanced earning rates (2x multiplier)
+- Exclusive content unlocked
+- Premium badge displayed
+
+### State Management
+Global state tracking:
+- Premium status (on/off)
+- Coin balance
+- User preferences
+
+---
+
+## Mock Data Requirements
+
+- **Games**: 10-12 titles with metadata (use real CrazyGames titles/thumbnails)
+- **Shop Items**: 6-8 items, mix of regular and premium-exclusive
+- **Developer Games**: 2-3 games with revenue stats
+
+---
+
+## Design Direction
+
+### Brand Consistency
+- Match CrazyGames visual identity exactly
+- Use their actual color palette
+- Replicate their typography system
+- Mirror their layout patterns
+
+### Premium Indicators
+- Premium badge (⭐)
+- Gold/yellow accents for premium features
+- Locked/unlocked states for content
+- Clear ad placements vs ad-free zones
+
+### Interactions
+- Smooth state transitions
+- Coin balance animations
+- Success states for conversions
+
+---
+
+## Out of Scope
+
+- Real payment processing
+- User authentication
+- Backend/database
+- Actual games (mockups only)
+- Admin panels
+- Analytics tracking
+
+---
+
+## Deliverables
+
+1. **GitHub Repository** - Public, with README
+2. **Live Deployment** - Vercel hosted
+3. **Screen Recording** - 5-min walkthrough (created separately)
+4. **One-Pager** - PDF overview with links
+
+---
+
+## Success Criteria
+
+- Toggle works seamlessly across all pages
+- Clear visual differentiation between Free/Premium
+- Professional, polished UI matching CrazyGames brand
+- Developer dashboard shows compelling revenue story
+- Deployed and shareable via URL
+
+---
+
+END OF SPEC
